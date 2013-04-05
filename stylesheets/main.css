@@ -1,3 +1,18 @@
+.nav-type {
+  font-family: "museo-slab",serif;
+  font-style: italic;
+  font-weight: 100;
+  color: #535353;
+  font-size: 2em;
+  text-decoration: none; }
+
+h4 {
+  font-family: "museo-slab",serif;
+  font-style: normal;
+  font-weight: 800;
+  color: #292929;
+  font-size: 1.875em; }
+
 /*
  * HTML5 Boilerplate
  *
@@ -25,11 +40,11 @@ body {
  * Customize the background color to match your design.
  */
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #ffdb61;
   text-shadow: none; }
 
 ::selection {
-  background: #b3d4fc;
+  background: #ffdb61;
   text-shadow: none; }
 
 /*

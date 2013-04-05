@@ -1,3 +1,5 @@
+@import "partials/base";
+
 /*
  * HTML5 Boilerplate
  *
@@ -30,12 +32,12 @@ body {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: $highlight;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: $highlight;
     text-shadow: none;
 }
 
@@ -92,15 +94,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-@import "partials/base";
-
-
-
-
-
-
 
 
 
