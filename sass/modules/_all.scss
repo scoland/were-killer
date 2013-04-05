@@ -1,0 +1,29 @@
+//This will be for modules, stuff that won't output any actual CSS
+
+//Font Mixins
+
+@mixin slab-italic {
+	font-family: "museo-slab",serif;
+	font-style: italic;
+	font-weight: 100;
+}
+
+@mixin slab-bold {
+	font-family: "museo-slab",serif;
+	font-style: normal;
+	font-weight: 800;
+}
+
+@mixin sans-normal {
+	font-family: "museo-sans",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+
+
+//colors
+$nav-gray: #535353;
+$body-gray: #78c27d;
+$nav-black: #292929;
+$green: #78c27d;
