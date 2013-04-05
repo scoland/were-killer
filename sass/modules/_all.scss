@@ -2,6 +2,13 @@
 
 //Font Mixins
 
+//em function
+$basefont:16;
+
+@function em($target, $context: $basefont) {
+    @return ($target / $context) * 1em;
+}
+
 @mixin slab-italic {
 	font-family: "museo-slab",serif;
 	font-style: italic;
