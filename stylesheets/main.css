@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'socialicoregular';
+  src: url("../fonts/socialico-webfont.eot");
+  src: url("../fonts/socialico-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/socialico-webfont.woff") format("woff"), url("../fonts/socialico-webfont.ttf") format("truetype"), url("../fonts/socialico-webfont.svg#socialicoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   font-family: "museo-sans",sans-serif;
   font-style: normal;
@@ -37,7 +44,7 @@ h3 {
 
 #container {
   margin: 36px auto;
-  max-width: 834px; }
+  width: 65%; }
 
 section {
   clear: both; }
@@ -67,6 +74,26 @@ section {
 
 #scoland {
   float: right; }
+
+#about li a {
+  text-decoration: none;
+  font-family: 'socialicoregular';
+  color: #78c27d;
+  font-size: 1.875em;
+  display: inline-block; }
+
+#about p {
+  clear: both;
+  position: relative;
+  bottom: 1em; }
+#about ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  bottom: .6em; }
+#about li {
+  float: left; }
 
 /*
  * HTML5 Boilerplate
