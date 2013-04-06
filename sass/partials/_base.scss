@@ -22,6 +22,7 @@ h4 {
 	@include slab-bold;
 	color: $nav-black;
 	font-size: em(30);
+	margin: 0;
 }
 
 h3 {
@@ -29,6 +30,7 @@ h3 {
 	color: $green;
 	font-size: em(14);
 	text-transform: uppercase;
+	margin: 0;
 }
 
 //Paragraphs
@@ -45,7 +47,7 @@ h3 {
 
 #container {
 	margin: 36px auto;
-	width: 68%;
+	max-width: 834px;
 }
 
 section {
@@ -63,9 +65,28 @@ section {
 
 .work-box {
 	float: left;
-	margin-right: percentage(30px / 822px);
+	margin-right: percentage(30px / 834px);
 }
 	//No margin on last image
 	#work .fan-content div:last-child {
-		margin-right: none;
+		margin-right: 0;
+	}
+
+//About
+
+#portrait {
+	margin-bottom: 44px;
+}
+
+#aporto, #scoland {
+	width: percentage(390px / 834px);
+	border-top: 1px solid $border;
+}
+
+	#aporto {
+		float: left;
+	}
+
+	#scoland {
+		float: right;
 	}

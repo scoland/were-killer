@@ -17,7 +17,8 @@ h4 {
   font-style: normal;
   font-weight: 800;
   color: #292929;
-  font-size: 1.875em; }
+  font-size: 1.875em;
+  margin: 0; }
 
 h3 {
   font-family: "museo-sans",sans-serif;
@@ -25,7 +26,8 @@ h3 {
   font-weight: 500;
   color: #78c27d;
   font-size: 0.875em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0; }
 
 #philosophy p {
   font-size: 1.75em; }
@@ -35,7 +37,7 @@ h3 {
 
 #container {
   margin: 36px auto;
-  width: 68%; }
+  max-width: 834px; }
 
 section {
   clear: both; }
@@ -48,10 +50,23 @@ section {
 
 .work-box {
   float: left;
-  margin-right: 3.64964%; }
+  margin-right: 3.59712%; }
 
 #work .fan-content div:last-child {
-  margin-right: none; }
+  margin-right: 0; }
+
+#portrait {
+  margin-bottom: 44px; }
+
+#aporto, #scoland {
+  width: 46.76259%;
+  border-top: 1px solid #bfbfbf; }
+
+#aporto {
+  float: left; }
+
+#scoland {
+  float: right; }
 
 /*
  * HTML5 Boilerplate
