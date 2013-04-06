@@ -67,6 +67,28 @@ section {
 .work-box {
 	float: left;
 	margin-right: percentage(30px / 834px);
+
+	#partisan-box, #bock-box, #lola-box {
+		width: 258px;
+		height: 163px;
+		display: block;
+
+		&:hover {
+			background-position: -258px 0;
+		}
+	}
+
+	#partisan-box {
+		background:url('../img/partisan.jpg') no-repeat 0 0 ;
+	}
+
+	#bock-box {
+		background:url('../img/bock.jpg') no-repeat 0 0 ;
+	}
+
+	#lola-box {
+		background:url('../img/lola.jpg') no-repeat 0 0 ;
+	}
 }
 	//No margin on last image
 	#work .fan-content div:last-child {

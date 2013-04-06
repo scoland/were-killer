@@ -58,6 +58,18 @@ section {
 .work-box {
   float: left;
   margin-right: 3.59712%; }
+  .work-box #partisan-box, .work-box #bock-box, .work-box #lola-box {
+    width: 258px;
+    height: 163px;
+    display: block; }
+    .work-box #partisan-box:hover, .work-box #bock-box:hover, .work-box #lola-box:hover {
+      background-position: -258px 0; }
+  .work-box #partisan-box {
+    background: url("../img/partisan.jpg") no-repeat 0 0; }
+  .work-box #bock-box {
+    background: url("../img/bock.jpg") no-repeat 0 0; }
+  .work-box #lola-box {
+    background: url("../img/lola.jpg") no-repeat 0 0; }
 
 #work .fan-content div:last-child {
   margin-right: 0; }
