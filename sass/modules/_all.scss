@@ -3,7 +3,7 @@
 //Font Mixins
 
 //em function
-$basefont:16;
+$basefont: 16;
 
 @function em($target, $context: $basefont) {
     @return ($target / $context) * 1em;
@@ -27,7 +27,11 @@ $basefont:16;
 	font-weight: 300;
 }
 
-
+@mixin sans-bold {
+	font-family: "museo-sans",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
 
 //colors
 $nav-gray: #535353;

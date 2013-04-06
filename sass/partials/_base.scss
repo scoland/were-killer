@@ -4,6 +4,11 @@
 
 //Type
 
+body {
+	@include sans-normal;
+	color: $nav-gray;
+}
+
 $highlight: #ffdb61;
 
 .nav-type {
@@ -18,3 +23,49 @@ h4 {
 	color: $nav-black;
 	font-size: em(30);
 }
+
+h3 {
+	@include sans-bold;
+	color: $green;
+	font-size: em(14);
+	text-transform: uppercase;
+}
+
+//Paragraphs
+
+#philosophy p {
+	font-size: em(28);
+}
+
+#about p {
+	font-size: em(14);
+}
+
+//Actual page styles
+
+#container {
+	margin: 36px auto;
+	width: 68%;
+}
+
+section {
+	clear: both;
+}
+
+//Logo image replacement
+#logo {
+	background-image: url(../img/logo.jpg);
+	width: 546px;
+	height: 63px;
+	margin: 0 auto;
+}
+
+
+.work-box {
+	float: left;
+	margin-right: percentage(30px / 822px);
+}
+	//No margin on last image
+	#work .fan-content div:last-child {
+		margin-right: none;
+	}

@@ -1,3 +1,9 @@
+body {
+  font-family: "museo-sans",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #535353; }
+
 .nav-type {
   font-family: "museo-slab",serif;
   font-style: italic;
@@ -12,6 +18,40 @@ h4 {
   font-weight: 800;
   color: #292929;
   font-size: 1.875em; }
+
+h3 {
+  font-family: "museo-sans",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #78c27d;
+  font-size: 0.875em;
+  text-transform: uppercase; }
+
+#philosophy p {
+  font-size: 1.75em; }
+
+#about p {
+  font-size: 0.875em; }
+
+#container {
+  margin: 36px auto;
+  width: 68%; }
+
+section {
+  clear: both; }
+
+#logo {
+  background-image: url(../img/logo.jpg);
+  width: 546px;
+  height: 63px;
+  margin: 0 auto; }
+
+.work-box {
+  float: left;
+  margin-right: 3.64964%; }
+
+#work .fan-content div:last-child {
+  margin-right: none; }
 
 /*
  * HTML5 Boilerplate
