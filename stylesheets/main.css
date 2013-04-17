@@ -45,6 +45,9 @@ h3 {
 #about p {
   font-size: 0.875em; }
 
+header {
+  margin-bottom: 10%; }
+
 #container {
   margin: 36px auto;
   width: 65%; }
