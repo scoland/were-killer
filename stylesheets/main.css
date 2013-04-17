@@ -19,6 +19,9 @@ body {
   font-size: 2em;
   text-decoration: none; }
 
+h2 {
+  font-size: 16px; }
+
 h4 {
   font-family: "museo-slab",serif;
   font-style: normal;
@@ -46,7 +49,7 @@ h3 {
   margin: 36px auto;
   width: 65%; }
 
-section {
+#fan section {
   clear: both; }
 
 #logo {
@@ -109,6 +112,38 @@ section {
 
 #popover {
   display: none; }
+
+.pop-main h2 {
+  font-family: "museo-slab",serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.9375em;
+  color: #292929;
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 1%;
+  margin-bottom: 4%; }
+
+#partisan-big {
+  padding: 2px;
+  border: 1px solid #bfbfbf; }
+
+.work-main, .work-side {
+  margin-top: 40px; }
+
+.work-main {
+  width: 65.54622%;
+  float: left;
+  border-top: 1px solid #bfbfbf; }
+
+.work-side {
+  width: 30.85234%;
+  float: right;
+  border-top: 1px solid #bfbfbf; }
+  .work-side a {
+    color: #292929; }
+  .work-side #services {
+    border-top: 1px solid #bfbfbf;
+    margin-top: 40px; }
 
 /*
  * HTML5 Boilerplate

@@ -18,6 +18,10 @@ $highlight: #ffdb61;
 	text-decoration: none;
 }
 
+h2 {
+	font-size: 16px;
+}
+
 h4 {
 	@include slab-bold;
 	color: $nav-black;
@@ -51,7 +55,7 @@ h3 {
 	width: 65%;
 }
 
-section {
+#fan section {
 	clear: both;
 }
 
@@ -146,4 +150,45 @@ section {
 
 #popover {
 	display: none;
+}
+
+.pop-main {
+	h2 {
+		@include slab-bold;
+		font-size: em(31);
+		color: $nav-black;
+		border-bottom: 1px solid $border;
+		padding-bottom: 1%;
+		margin-bottom: 4%;
+	}
+}
+
+#partisan-big {
+	padding: 2px;
+	border: 1px solid $border;
+}
+
+.work-main, .work-side {
+	margin-top: 40px;
+}
+
+.work-main {
+	width: percentage(546px / 833px);
+	float: left;
+	border-top: 1px solid $border;
+}
+
+.work-side {
+
+	a {
+		color: $nav-black;
+	}
+	width: percentage(257px / 833px);
+	float: right;
+	border-top: 1px solid $border;
+
+	#services {
+		border-top: 1px solid $border;
+		margin-top: 40px;
+	}
 }

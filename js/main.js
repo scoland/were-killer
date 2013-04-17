@@ -20,7 +20,7 @@ $(document).ready(function() {
               }
       },
       autoSize: false,
-      width: 960,
+      width: 834,
       autoHeight: true,
       minHeight: 800
   });
