@@ -107,6 +107,9 @@ section {
 #about li {
   float: left; }
 
+#popover {
+  display: none; }
+
 /*
  * HTML5 Boilerplate
  *

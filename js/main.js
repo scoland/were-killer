@@ -10,4 +10,18 @@ $(document).ready(function() {
          $target.addClass('active').slideDown();
       }
   	});
+
+    $(".fancybox").fancybox({
+      helpers : {
+              overlay : {
+                  css : {
+                      'background' : 'rgba(58, 42, 45, 0)'
+                  }
+              }
+      },
+      autoSize: false,
+      width: 960,
+      autoHeight: true,
+      minHeight: 800
+  });
 });
