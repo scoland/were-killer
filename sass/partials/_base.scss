@@ -49,6 +49,7 @@ h3 {
 
 //Actual page styles
 
+// Fan things
 #container {
 	margin: 36px auto;
 	//max-width: 834px;
@@ -57,6 +58,16 @@ h3 {
 
 #fan section {
 	clear: both;
+	border-top: 1px solid $border;
+}
+
+.fan-content {
+	border-top: 1px solid $border;
+	padding-top: 20px;
+}
+
+#about {
+	border-bottom: 1px solid $border;
 }
 
 //Logo image replacement
@@ -71,6 +82,7 @@ h3 {
 .work-box {
 	float: left;
 	margin-right: percentage(30px / 834px);
+	margin-bottom: 5%;
 
 	#partisan-box, #bock-box, #lola-box {
 		width: 258px;

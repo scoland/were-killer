@@ -9,6 +9,10 @@ $(document).ready(function() {
          allPanels.removeClass('active').slideUp();
          $target.addClass('active').slideDown();
       }
+      // if ($target.hasClass('active')) {
+      //   $('.active-h2').removeClass('active-h2');
+      //   $this.parent().addClass('active-h2');
+      // }
   	});
 
     $(".fancybox").fancybox({

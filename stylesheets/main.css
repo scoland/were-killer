@@ -50,7 +50,15 @@ h3 {
   width: 65%; }
 
 #fan section {
-  clear: both; }
+  clear: both;
+  border-top: 1px solid #bfbfbf; }
+
+.fan-content {
+  border-top: 1px solid #bfbfbf;
+  padding-top: 20px; }
+
+#about {
+  border-bottom: 1px solid #bfbfbf; }
 
 #logo {
   background-image: url(../img/logo.jpg);
@@ -60,7 +68,8 @@ h3 {
 
 .work-box {
   float: left;
-  margin-right: 3.59712%; }
+  margin-right: 3.59712%;
+  margin-bottom: 5%; }
   .work-box #partisan-box, .work-box #bock-box, .work-box #lola-box {
     width: 258px;
     height: 163px;
