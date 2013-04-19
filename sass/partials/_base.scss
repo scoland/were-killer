@@ -70,8 +70,20 @@ header {
 	padding-top: 20px;
 }
 
-#about {
-	border-bottom: 1px solid $border;
+//Plus and minus
+.plus a:hover:after {
+	content: "+";
+	float: right;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: .7em;
+	position: relative;
+	top: 7px;
+	right: 30px;
+}
+
+.minus a:hover:after {
+	content: "-";
 }
 
 //Logo image replacement

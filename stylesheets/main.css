@@ -60,8 +60,18 @@ header {
   border-top: 1px solid #bfbfbf;
   padding-top: 20px; }
 
-#about {
-  border-bottom: 1px solid #bfbfbf; }
+.plus a:hover:after {
+  content: "+";
+  float: right;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: .7em;
+  position: relative;
+  top: 7px;
+  right: 30px; }
+
+.minus a:hover:after {
+  content: "-"; }
 
 #logo {
   background-image: url(../img/logo.jpg);

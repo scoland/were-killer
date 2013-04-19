@@ -3,23 +3,25 @@ $(document).ready(function() {
 	$('#fan > section > h2 > a').click(function(event) {
 	  event.preventDefault();
 	  $this = $(this);
-      $target =  $this.parent().next();
+    $target =  $this.parent().next();
+    $plus = $('.plus')
 
       if(!$target.hasClass('active')){
          allPanels.removeClass('active').slideUp();
          $target.addClass('active').slideDown();
+         $plus.removeClass('minus');
+         $this.closest('h2').addClass('minus');
       }
-      // if ($target.hasClass('active')) {
-      //   $('.active-h2').removeClass('active-h2');
-      //   $this.parent().addClass('active-h2');
-      // }
+
+
+      
   	});
 
     $(".fancybox").fancybox({
       helpers : {
               overlay : {
                   css : {
-                      'background' : 'rgba(58, 42, 45, 0)'
+                      'background' : 'rgba(58, 42, 45, .2)'
                   }
               }
       },
