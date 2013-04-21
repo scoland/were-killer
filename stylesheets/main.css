@@ -82,19 +82,39 @@ header {
 .work-box {
   float: left;
   margin-right: 3.59712%;
-  margin-bottom: 5%; }
-  .work-box #partisan-box, .work-box #bock-box, .work-box #lola-box {
-    width: 258px;
-    height: 163px;
-    display: block; }
-    .work-box #partisan-box:hover, .work-box #bock-box:hover, .work-box #lola-box:hover {
-      background-position: -258px 0; }
-  .work-box #partisan-box {
-    background: url("../img/partisan.jpg") no-repeat 0 0; }
-  .work-box #bock-box {
-    background: url("../img/bock.jpg") no-repeat 0 0; }
-  .work-box #lola-box {
-    background: url("../img/lola.jpg") no-repeat 0 0; }
+  margin-bottom: 5%;
+  cursor: pointer; }
+
+.box-h3 {
+  color: #fff;
+  position: relative;
+  top: 72px;
+  text-align: center; }
+
+#partisan-box, #bock-box, #lola-box {
+  width: 258px;
+  height: 163px; }
+
+#partisan-box {
+  background: url("../img/partisan.jpg"); }
+
+#bock-box {
+  background: url("../img/bock.jpg"); }
+
+#lola-box {
+  background: url("../img/lola.jpg"); }
+
+.box-bkg {
+  background: #78c27d;
+  position: absolute;
+  height: inherit;
+  width: 258px;
+  opacity: 0; }
+  .box-bkg:hover {
+    opacity: 1; }
+
+.work-link {
+  text-decoration: none; }
 
 #work .fan-content div:last-child {
   margin-right: 0; }
