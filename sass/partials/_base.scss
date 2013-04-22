@@ -262,3 +262,14 @@ header {
 		margin-top: 40px;
 	}
 }
+
+.fancybox-nav span {
+	color: $green;
+	@include sans-bold;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	text-decoration: underline;
+}

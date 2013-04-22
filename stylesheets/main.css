@@ -187,6 +187,18 @@ header {
     border-top: 1px solid #bfbfbf;
     margin-top: 40px; }
 
+.fancybox-nav span {
+  color: #78c27d;
+  font-family: "museo-sans",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  text-decoration: underline; }
+
 /*
  * HTML5 Boilerplate
  *
