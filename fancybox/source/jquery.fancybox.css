@@ -76,7 +76,7 @@
 }
 
 #fancybox-loading, .fancybox-close {
-	background-image: url('fancybox_sprite.png');
+	background-image: url('x.png');
 }
 
 #fancybox-loading {
@@ -99,10 +99,10 @@
 
 .fancybox-close {
 	position: absolute;
-	top: -18px;
-	right: -18px;
-	width: 36px;
-	height: 36px;
+	top: 33px;
+	right: 39px;
+	width: 33px;
+	height: 33px;
 	cursor: pointer;
 	z-index: 8040;
 }

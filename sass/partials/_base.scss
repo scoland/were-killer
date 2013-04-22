@@ -88,10 +88,9 @@ header {
 
 //Logo image replacement
 #logo {
-	background-image: url(../img/logo.jpg);
-	width: 546px;
-	height: 63px;
+	display: block;
 	margin: 0 auto;
+	max-width: 100%;
 }
 
 

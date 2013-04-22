@@ -74,10 +74,9 @@ header {
   content: "-"; }
 
 #logo {
-  background-image: url(../img/logo.jpg);
-  width: 546px;
-  height: 63px;
-  margin: 0 auto; }
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; }
 
 .work-box {
   float: left;
