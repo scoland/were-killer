@@ -21,13 +21,13 @@ $(document).ready(function() {
       helpers : {
               overlay : {
                   css : {
-                      'background' : 'rgba(58, 42, 45, .2)'
+                      'background' : 'rgba(0, 0, 0, 0)'
                   }
               }
       },
       autoSize: false,
       width: 834,
-      autoHeight: true,
-      minHeight: 800
+      minHeight: 800,
+      scrolling: 'no'
   });
 });

@@ -18,6 +18,10 @@
         <!-- typekit -->
         <script type="text/javascript" src="//use.typekit.net/uoa8nue.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <link rel="stylesheet" href="stylesheets/flexslider.css" type="text/css">
+
+
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -149,7 +153,19 @@
                 <div class="pop-main" id="partisan-pop">
                     <h2>Partisan the Movie</h2>
 
-                    <img src="img/partisanbig.jpg" id="partisan-big">
+                        <div class="flexslider">
+                          <ul class="slides">
+                            <li>
+                              <img src="img/partisanbig.jpg" />
+                            </li>
+                            <li>
+                              <img src="img/leaf.jpg" />
+                            </li>
+                            <li>
+                              <img src="img/plane.jpg" />
+                            </li>
+                          </ul>
+                        </div>
 
                     <section class="work-main">
 
@@ -270,6 +286,12 @@
         <script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
         
         <script src="js/plugins.js"></script>
+        <script src="js/vendor/jquery.flexslider.js"></script>
+        <script type="text/javascript" charset="utf-8">
+          $(window).load(function() {
+            $('.flexslider').flexslider();
+          });
+        </script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
