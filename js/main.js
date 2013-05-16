@@ -12,22 +12,12 @@ $(document).ready(function() {
          $plus.removeClass('minus');
          $this.closest('h2').addClass('minus');
       }
-
-
-      
-  	});
+  });
 
     $(".fancybox").fancybox({
-      helpers : {
-              overlay : {
-                  css : {
-                      'background' : 'rgba(0, 0, 0, 0)'
-                  }
-              }
-      },
       autoSize: false,
       width: 834,
       minHeight: 800,
       scrolling: 'no'
-  });
+    });
 });

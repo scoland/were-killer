@@ -113,7 +113,9 @@ header {
     opacity: 1; }
 
 .work-link {
-  text-decoration: none; }
+  text-decoration: none;
+  display: block;
+  height: 100%; }
 
 #work .fan-content div:last-child {
   margin-right: 0; }
