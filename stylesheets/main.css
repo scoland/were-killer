@@ -35,15 +35,21 @@ h3 {
   font-style: normal;
   font-weight: 400;
   color: #78c27d;
-  font-size: 0.875em;
+  font-size: 1em;
   text-transform: uppercase;
   margin: 0; }
 
 #philosophy p {
-  font-size: 1.75em; }
+  font-size: 1.75em;
+  margin-top: 1%;
+  line-height: 2em; }
 
 #about p {
   font-size: 0.875em; }
+
+#contact p {
+  font-size: 1.75em;
+  margin-top: 1%; }
 
 header {
   margin-bottom: 10%; }
@@ -60,19 +66,6 @@ header {
   border-top: 1px solid #bfbfbf;
   padding-top: 20px; }
 
-.plus a:hover:after {
-  content: "+";
-  float: right;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: .7em;
-  position: relative;
-  top: 7px;
-  right: 30px; }
-
-.minus a:hover:after {
-  content: "-"; }
-
 #logo {
   display: block;
   margin: 0 auto;
@@ -81,7 +74,8 @@ header {
 .work-box {
   float: left;
   margin-right: 3.59712%;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
+  margin-top: 3%;
   cursor: pointer; }
 
 .box-h3 {
@@ -121,7 +115,8 @@ header {
   margin-right: 0; }
 
 #portrait {
-  margin-bottom: 44px; }
+  margin-bottom: 44px;
+  margin-top: 2%; }
 
 #aporto, #scoland {
   width: 46.76259%;
@@ -131,19 +126,28 @@ header {
   float: left; }
 
 #scoland {
-  float: right; }
+  float: right;
+  margin-bottom: 1%; }
 
 #about li a {
   text-decoration: none;
   font-family: 'socialicoregular';
   color: #78c27d;
-  font-size: 1.875em;
+  font-size: 2.5em;
   display: inline-block; }
 
+#about li a:hover {
+  color: #ffdb61; }
+
+#about .al-website {
+  color: #292929;
+  text-decoration: none; }
 #about p {
   clear: both;
   position: relative;
-  bottom: 1em; }
+  bottom: 1em;
+  font-size: 1em;
+  line-height: 1.4; }
 #about ul {
   list-style: none;
   padding: 0;
@@ -152,6 +156,17 @@ header {
   bottom: .6em; }
 #about li {
   float: left; }
+
+#contact .email-contact {
+  color: #78c27d;
+  text-decoration: none;
+  font-weight: 800; }
+
+#contact {
+  border-bottom: 1px solid #bfbfbf; }
+
+.no-border {
+  border-bottom: none !important; }
 
 #popover {
   display: none; }
@@ -183,10 +198,15 @@ header {
   float: right;
   border-top: 1px solid #bfbfbf; }
   .work-side a {
-    color: #292929; }
+    color: #292929;
+    display: block;
+    margin: 1em 0; }
   .work-side #services {
     border-top: 1px solid #bfbfbf;
     margin-top: 40px; }
+  .work-side ul {
+    padding-left: 0;
+    list-style: none; }
 
 .fancybox-nav span {
   color: #78c27d;
@@ -249,7 +269,8 @@ hr {
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
 img {
-  vertical-align: middle; }
+  vertical-align: middle;
+  max-width: 100%; }
 
 /*
  * Remove default fieldset styles.
@@ -368,8 +389,27 @@ textarea {
    Theses examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */ }
+@media only screen and (max-width: 900px) {
+  /* Style adjustments for viewports that meet the condition */
+  #aporto {
+    float: none;
+    width: 100%; }
+
+  #scoland {
+    float: none;
+    width: 100%; }
+
+  #philosophy p {
+    font-size: 1em;
+    line-height: 1.4; } }
+@media only screen and (max-width: 700px) {
+  .work-main {
+    float: none;
+    width: 100%; }
+
+  .work-side {
+    float: none;
+    width: 100%; } }
 @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
 /* ==========================================================================

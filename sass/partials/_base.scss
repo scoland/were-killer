@@ -32,7 +32,7 @@ h4 {
 h3 {
 	@include din-condensed;
 	color: $green;
-	font-size: em(14);
+	font-size: 1em;
 	text-transform: uppercase;
 	margin: 0;
 }
@@ -41,10 +41,17 @@ h3 {
 
 #philosophy p {
 	font-size: em(28);
+	margin-top: 1%;
+	line-height: 2em;
 }
 
 #about p {
 	font-size: em(14);
+}
+
+#contact p {
+	font-size: em(28);
+	margin-top: 1%;
 }
 
 //Actual page styles
@@ -70,22 +77,6 @@ header {
 	padding-top: 20px;
 }
 
-//Plus and minus
-.plus a:hover:after {
-	content: "+";
-	float: right;
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	font-size: .7em;
-	position: relative;
-	top: 7px;
-	right: 30px;
-}
-
-.minus a:hover:after {
-	content: "-";
-}
-
 //Logo image replacement
 #logo {
 	display: block;
@@ -97,7 +88,8 @@ header {
 .work-box {
 	float: left;
 	margin-right: percentage(30px / 834px);
-	margin-bottom: 5%;
+	margin-bottom: 6%;
+	margin-top: 3%;
 	cursor: pointer;
 
 
@@ -174,6 +166,7 @@ header {
 
 #portrait {
 	margin-bottom: 44px;
+	margin-top: 2%;
 }
 
 #aporto, #scoland {
@@ -187,21 +180,33 @@ header {
 
 	#scoland {
 		float: right;
+		margin-bottom: 1%;
 	}
 
 #about li a {
 	text-decoration: none;
 	font-family: 'socialicoregular';
 	color: $green;
-	font-size: em(30);
+	font-size: 2.5em;
 	display: inline-block;
 }
+
+	#about li a:hover {
+		color: #ffdb61
+	}
 	#about {
+
+		.al-website {
+			color: #292929;
+			text-decoration: none;
+		}
 
 		p {
 			clear: both;
 			position: relative;
 			bottom: 1em;
+			font-size: 1em;
+			line-height: 1.4;
 		}
 
 		ul {
@@ -215,6 +220,20 @@ header {
 		li {
 			float: left;
 		}
+	}
+
+#contact .email-contact {
+	color: $green;
+	text-decoration: none;
+	font-weight: 800;
+}
+
+	#contact {
+		border-bottom: 1px solid $border;
+	}
+
+	.no-border {
+		border-bottom: none !important;
 	}
 
 // Popover styles
@@ -253,6 +272,8 @@ header {
 
 	a {
 		color: $nav-black;
+		display:block;
+		margin: 1em 0;
 	}
 	width: percentage(257px / 833px);
 	float: right;
@@ -261,6 +282,10 @@ header {
 	#services {
 		border-top: 1px solid $border;
 		margin-top: 40px;
+	}
+	ul {
+	  padding-left: 0;
+	  list-style: none;
 	}
 }
 

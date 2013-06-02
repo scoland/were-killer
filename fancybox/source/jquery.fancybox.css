@@ -179,7 +179,7 @@
 	display: none;
 	z-index: 8010;
 	/*background: url('fancybox_overlay.png');*/
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: #fff;
 }
 
 .fancybox-overlay-fixed {
