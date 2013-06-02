@@ -30,7 +30,7 @@ h4 {
 }
 
 h3 {
-	@include sans-bold;
+	@include din-condensed;
 	color: $green;
 	font-size: em(14);
 	text-transform: uppercase;

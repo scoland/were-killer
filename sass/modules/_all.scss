@@ -46,6 +46,12 @@ $basefont: 16;
 	font-weight: 500;
 }
 
+@mixin din-condensed {
+	font-family: "din-condensed-web",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
 //colors
 $nav-gray: #535353;
 $body-gray: #78c27d;
